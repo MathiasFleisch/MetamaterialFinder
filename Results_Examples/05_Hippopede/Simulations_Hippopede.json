@@ -1,0 +1,21 @@
+{
+"HippopedeFull": {
+	"Active": 1,
+	"LX|LY|LZ": "20|20|0.2",
+	"NX|NY": "4|4",
+	"SX|SY": "85|90",
+ 	"Outside material": "Hard",
+ 	"Mesh": "2dfine-plane-strain",
+ 	"Pores": "Hippopede",
+ 	"Force full": 1,
+ 	"Force homogenization": 0,
+ 	"DX|DY": "0|2",
+        "Nlgeom": 0,
+        "Stepsize": 0.04,
+        "Dimension": "2D",
+	"Extensometer": {"P1": ["1.5*LX", "1.5*LY"],
+                         "P2": ["2.5*LX", "1.5*LY"],
+                         "P3": ["2.5*LX", "2.5*LY"],
+                         "P4": ["1.5*LX", "2.5*LY"]},
+ 	"Save directory": "O:\\NCPL_5010000_(Chemitecture)\\NCPL_5010040_(MC-04)\\02_Working_Data\\500_Software\\580_Pore-Shape\\MetamaterialFinder\\Results\\05_Hippopede"}
+}

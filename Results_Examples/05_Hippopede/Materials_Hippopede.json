@@ -1,0 +1,6 @@
+{
+"LinearElasticMaterial": [{"name": "Soft", "E": 4, "nu": 0.35, "density": 1},
+                          {"name": "Hard", "E": 1991, "nu": 0.35, "density": 1},
+                          {"name": "TangoBlack", "E": 0.52, "nu": 0.45, "density": 1},
+                          {"name": "VeroBlue", "E": 1650, "nu": 0.35, "density": 1}]
+}

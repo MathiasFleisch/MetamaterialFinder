@@ -1,0 +1,15 @@
+{
+"Hippopede": {"Pore functions": ["hippopede"],
+              "Pore function parameters": ["1;5;21|1;5;21"],
+              "Pore displacements": [{"X": "LX/4.;LX/4.;1",
+                                      "Y": "LY/4.;LY/4.;1"},
+                                     {"X": "3*LX/4.;3*LX/4.;1",
+                                      "Y": "LY/4.;LY/4.;1"},
+                                     {"X": "3*LX/4.;3*LX/4.;1",
+                                      "Y": "3*LY/4.;3*LY/4.;1"},
+                                     {"X": "LX/4.;LX/4.;1",
+                                      "Y": "3*LY/4.;3*LY/4.;1"}],
+              "Pore angles": ["0;0;1", "90;90;1", "0;0;1", "90;90;1"],
+              "Pore materials": ["empty"],
+              "Pore relations": ["P1X1>P1X2", "2*P1X1+P1X2<LX/2.-0.2"]}
+}
