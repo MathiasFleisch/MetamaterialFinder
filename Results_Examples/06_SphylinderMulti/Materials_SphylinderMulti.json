@@ -1,0 +1,4 @@
+{
+"LinearElasticMaterial": [{"name": "Soft", "E": 4, "nu": 0.35, "density": 1},
+                          {"name": "Hard", "E": 1991, "nu": 0.35, "density": 1}]
+}
