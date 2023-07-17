@@ -1,0 +1,22 @@
+{
+"TetraAntichiralSphylinderUC": {
+	"Active": 1,
+	"LX|LY|LZ": "50|50|0.2",
+	"NX|NY": "1|1",
+	"SX|SY": "50|50",
+ 	"Outside material": "Soft",
+ 	"Mesh": "3dfine",
+ 	"Pores": "TAC-Sphylinder",
+ 	"Force full": 0,
+ 	"Force homogenization": 1,
+ 	"DX|DY": "0|7",
+        "Nlgeom": 0,
+        "Stepsize": 0.02,
+        "Dimension": "3D",
+	"Extensometer": {"P1": ["1.5*LX", "LY/2"],
+                         "P2": ["2*LX+LX/2", "1.5*LY"],
+                         "P3": ["1.5*LX", "2*LY+LY/2"],
+                         "P4": ["LX/2", "1.5*LY"]},
+ 	"Save directory": "O:\\NCPL_5010000_(Chemitecture)\\NCPL_5010040_(MC-04)\\02_Working_Data\\500_Software\\580_Pore-Shape\\MetamaterialFinder\\Results\\04_Antichiral-Sphylinder"
+}
+}
