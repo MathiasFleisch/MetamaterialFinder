@@ -1,0 +1,8 @@
+{
+"3dfine": {"mesh_size": 0.3,
+           "mesh_size_z": 5,
+           "deviation_factor": 0.1,
+           "min_size_factor": 0.1,
+           "element_shape": "hex",
+           "element_type": "quadratic"}
+}

@@ -1,0 +1,22 @@
+{
+"SquircleCenterUC": {
+	"Active": 1,
+	"LX|LY|LZ": "15|15|0.2",
+	"NX|NY": "1|1",
+	"SX|SY": "15|15",
+ 	"Outside material": "Hard",
+ 	"Mesh": "3dfine",
+ 	"Pores": "SquircleCenter",
+ 	"Force full": 0,
+ 	"Force homogenization": 1,
+ 	"DX|DY": "0|7",
+        "Nlgeom": 0,
+        "Stepsize": 0.02,
+        "Dimension": "3D",
+	"Extensometer": {"P1": ["1.5*LX", "LY/2"],
+                         "P2": ["2*LX+LX/2", "1.5*LY"],
+                         "P3": ["1.5*LX", "2*LY+LY/2"],
+                         "P4": ["LX/2", "1.5*LY"]},
+ 	"Save directory": "C:\\temp\\SQUIRCLE"
+}
+}
