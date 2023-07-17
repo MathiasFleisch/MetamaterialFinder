@@ -1,0 +1,21 @@
+{
+"SphylinderMultiS2": {
+	"Active": 1,
+	"LX|LY|LZ": "20|20|0.2",
+	"NX|NY": "3|3",
+	"SX|SY": "65|70",
+ 	"Outside material": "Soft",
+ 	"Mesh": "2dfine-plane-stress",
+ 	"Pores": "FourSphylinders",
+ 	"Force full": 1,
+ 	"Force homogenization": 0,
+ 	"DX|DY": "0|-6",
+        "Nlgeom": 1,
+        "Stepsize": 0.02,
+        "Dimension": "2D",
+	"Extensometer": {"P1": ["1.5*LX", "LY"],
+                         "P2": ["2*LX", "1.5*LY"],
+                         "P3": ["1.5*LX", "2*LY"],
+                         "P4": ["LX", "1.5*LY"]},
+ 	"Save directory": "C:\\temp\\SphylinderMultiS2"}
+}
